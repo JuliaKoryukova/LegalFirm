@@ -1,0 +1,73 @@
+body {
+    background: #2c2c2c;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 200px;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+aside .contact-info {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: left;
+    width: 100%;
+    padding-left: 0em;
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+    width: 75%;
+}
+
+main .services {
+  float: left;
+  color: #fff;
+  margin-top: 10px;
+  width: 60%;
+  margin: 0px auto;
+  padding-left: 1em;
+  text-align: justify;
+}
+
+main .services img {
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    height: 50%;
+
+}
+
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 800px; margin: 20px auto;}
+main .services h2 {font-size: 40px; text-align: center; margin: 5px auto;}
+main .services li {font-size: 15px; text-align: left; margin: 10px auto; width: 120%;}
+aside .contact-info h2 {font-size: 30px; text-align: left; margin: 0px auto; display: block;}
+aside .contact-info p {max-width: 800px; text-align: left; margin: 10px auto; width: 100%}

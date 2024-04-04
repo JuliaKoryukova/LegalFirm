@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ firm.name }}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ firm.name }}</h1>
+        <p>{{ firm.description }}</p>
+    </div>
+
+    <div class="services">
+        {% include 'main/our_services.html' %}
+    </div>
+
+{% endblock %}
